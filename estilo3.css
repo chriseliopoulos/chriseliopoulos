@@ -1,0 +1,128 @@
+html, body{ /*para acabar com a margem automática do html, body*/
+    margin: 0;
+}
+header{/*essa é a minha barra de menu - início da organização da barra "Menu"*/
+    background-color:rgb(138, 167, 90);
+    color:white;
+    height: 60px;/*altura*/
+    width: 100%;/*largura*/
+    position: fixed;
+    z-index:10; /*para fixar a minha barra de menu. Posso falar isso tb no final, mostrar primeiro sem fixar a barra*/ 
+}
+#logo{/*informações da logo*/
+    width:84px;
+    position:absolute;
+    margin-left: 5%;
+
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;/*tira os pontos que havia na lista*/
+    margin-top:0px;
+}
+li{/*organizar a minha lista*/
+    float: left;
+    padding:20 10 20 10;
+    color:white;
+       
+}
+li:hover{
+    background-color:rgb(23, 80, 23);
+    color: white;
+}
+.cormenu{
+    color:white;
+    text-decoration: none;
+}/*finaliza a organização da barra "Menu"*/
+
+#imagemfundo {/*quando for dar nome a uma id ou class não pode deixar espaço*/
+    background:url("mesa1.jpeg");
+    padding: 100px;
+    text-align: center;
+    background-size: cover;  
+    
+}
+#título{
+    color: white;
+    padding-top: 8px;
+    font-size: 70px;
+  
+
+}
+#subtítulo{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size:40px;
+    border-top:solid white;
+    
+}
+#botao{
+    color: white;
+    border:2px white solid;
+    padding:20px 20px 20px 20px ;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#botao:hover{
+    background-color:white;
+    color: black;
+}
+.icones{
+    width:51px;
+}
+.icones:hover{
+    background-color:rgb(138, 167, 90);
+    border-radius: 40px;
+}
+.ilustracao{
+    width:100%;
+    height: 300px;
+}
+section{
+    padding:20px;
+    float: left; /*foi acrescentado após iniciar o processo de layout da primeira parte "projeto"*/
+}
+.destaque{
+    background-color:rgb(225, 238, 225);
+}
+.coluna{
+    float: left;
+    padding:0 5%;
+    position:relative;
+    width:40%;
+}    
+.justificado{
+    text-align:justify;
+}
+.centralizado{ /*elemento usado para centralizar título*/
+    text-align: center; 
+}
+.colunacinco{
+    float: left;
+    padding:0 5%;
+    position:relative;
+    width:15%;
+}
+.colunatres{
+    float: left;
+    padding:0 2%;
+    position:relative;
+    width:29%;
+}
+.colunadois{
+    float: left;
+    padding:0 5%;
+    position:relative;
+    width:40%;
+}
+footer{/*para incluir rodapé*/
+    background-color:rgb(138, 167, 90);
+    float:left;
+    text-align: center;
+    padding:30px;
+    font-size:15px;
+}
+
